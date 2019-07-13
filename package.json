@@ -1,0 +1,16 @@
+{
+  "name": "crypto-with-no-stored-passwords",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-modules example.js"
+  },
+  "repository": "git@github.com:marclundgren/crypto-with-no-stored-passwords.git",
+  "author": "Marc Lundgren <marclundgren2.0@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-plugin-jest": "^22.7.2"
+  }
+}

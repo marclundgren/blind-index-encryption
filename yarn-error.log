@@ -1,0 +1,44 @@
+Arguments: 
+  /usr/local/bin/node /Users/marc/.yarn/bin/yarn.js test
+
+PATH: 
+  /Users/marc/.gem/ruby/2.3.0/bin:/Users/marc/.rubies/ruby-2.3.0/lib/ruby/gems/2.3.0/bin:/Users/marc/.rubies/ruby-2.3.0/bin:/Applications/MongoDB.app/Contents/Resources/Vendor/mongodb/bin:/usr/local/opt/imagemagick@6/bin:/usr/local/opt/imagemagick@6/bin:/Users/marc/.yarn/bin:/Users/marc/.Pokemon-Terminal:/Users/marc/.rbenv/shims:/Users/marc/.rbenv/shims:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/Cellar/android-sdk/24.3.4/tools:/usr/local/Cellar/android-sdk/24.3.4/platform-tools:/usr/local/Cellar/node/7.5.0/bin:/usr/local/opt/go/libexec/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.6.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/marc/Dev/github/clones/crypto-with-no-stored-passwords/package.json: Unexpected token } in JSON at position 118
+      at JSON.parse (<anonymous>)
+      at /Users/marc/.yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/marc/.yarn/lib/cli.js:304:30)
+      at /Users/marc/.yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "crypto-with-no-stored-passwords",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": {
+      "module"
+    },
+    "scripts": {
+      "test": "node example.js"
+    },
+    "repository": "git@github.com:marclundgren/crypto-with-no-stored-passwords.git",
+    "author": "Marc Lundgren <marclundgren2.0@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
