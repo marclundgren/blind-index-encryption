@@ -1,7 +1,5 @@
-# crypto-with-no-stored-passwords
-crypto with no stored passwords
+# Blind Index Encryption
 
-## About
 This script is a modified version of a pattern by [Rubén Fernández](https://functional.works-hub.com/learn/how-i-encrypted-a-database-without-storing-the-keys-anywhere-9da75?utm_source=reddit&utm_medium=organicsocial&utm_campaign=j.kaplanhttps://nodejs.org/api/buffer.html#buffer_buf_readuintle_offset_bytelength)
 
 ## example
